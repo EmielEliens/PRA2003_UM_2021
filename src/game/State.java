@@ -495,7 +495,7 @@ public class State {
 //append the values with contextual text and print each on a new line
         fixer.append("Score:  ").append(score).append("\n");
         fixer.append("Safe jumps: ").append(safe).append("\n");
-// test boolean value for blaster and return 1 if blaster is available and 0 if it is not available
+// test boolean value for blaster and return [blaster] if blaster is available and nothing if it is not available
         fixer.append(blaster ? "[blaster]\n" : "\n");
         fixer.append("Status: ").append(status).append("\n");
         return fixer.toString();
