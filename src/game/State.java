@@ -142,7 +142,8 @@ public class State {
     }
 
     /**
-     * used the logic from Cameron's example state class to make the map placement method, I hope this is okay
+     * creates map and populates it with robots and the player
+     * also sets the initial state of the player
      */
     public void mapPlacement() {
         List<RC> cells = new ArrayList<>();
